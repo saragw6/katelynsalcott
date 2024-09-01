@@ -25,30 +25,71 @@
 
   <body>
     <div id="navigation">
-        <a href="#homepage">Katelyn S Alcott</a>
-        <div>
+        <div id="homepage-link"><a href="#homepage">Katelyn S Alcott</a></div>
+        <div id="other-links">
             <a href="#publications">Publications</a>
+            <a href="#contact-form">Contact</a>
         </div>
     </div>
     <div id="main">
-        <div id="homepage">
+        <div id="hero-image">
             <h1>Katelyn S Alcott</h1>
-
-            <div id="bio-and-photo">
-                <div id="photo"><img id="portrait" src="portrait.png"></div>
-                <div id="bio">
+        </div>
+        <div id="homepage">
+            <div id="bio-and-photo" class="text-and-photo">
+                <div class="photo"><img id="portrait" src="portrait.png"></div>
+                <div id="bio" class="text">
                     <p>
                         Katelyn S Alcott is a fantasy and science fiction writer from Massachusetts.
                         Katelyn is an ex-english teacher, and is currently studying for her MFA in
                         Creative Writing at the Writer’s Foundry, St. Joseph University in Brooklyn,
                         where she lives with her wife and cat.
                     </p>
-                    <p>
-                        You can contact Katelyn directly via email or through social media.
-                    </p>
                 </div>
             </div>
             
         </div>
+        <div id="publications">
+            <h2>Publications</h2>
+
+            <div id="publications" class="text-and-photo">
+                <div class="photo"><img id="changelings" src="changelings.png"></div>
+                <div class="text">
+                    <h3>The Changelings</h3>
+                        <p>Flash Fiction | Coming of Age | Queer Protagonist</p>
+                        <p>Read the story in Bright Flash Literary Review</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact-form">
+            <h2>Contact me</h2>
+
+            <form
+            action="https://formspree.io/f/manwvrek"
+            method="POST"
+          >
+            <label>
+              Your email:
+              <input type="email" name="email">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message" rows="3"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+          </form>
+        </div>
+    </div>
+    <div id="social-links">
+        <a href="mailto:katelynsalcott@gmail.com">
+            <img src="https://lh5.googleusercontent.com/rzGsPpfhJ4kWfHcwn2Ydk98Cw1c60KDX1T4ZAfAtDaT8t61NQ08N0oG1Po5sOpqitVrIU9DUGZp4YcsrfsFxabwRSDGo44r0ZRVKZfgR700" />
+        </a>
+        <a href="https://www.instagram.com/katelynsalcott/">
+            <img src="https://lh4.googleusercontent.com/-hy_ct7pvkOQ5lpT-c_qqRzJr2tFvS_r7Uf-D4gAt4QoK4JqOicdKyKJSAGF_sLw2frP0eEuRpDw0NWf1BYPu72eXCdpP5UsFHcy1KoRV5A" />
+        </a>
+        <a href="https://x.com/katelynsalcott">
+            <img src="https://lh4.googleusercontent.com/kSXBLqV9q4r7-3uF2FdXHqMmJkVGKU6Z5wltjY9rTlpoZbJGD9LqHYoDy3hbD8qCFt0nOLSg4zryyWQwIN5GyRiEKxS0IdeeQVTGYxuYaSA" />
+        </a>
     </div>
   </body>
