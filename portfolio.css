@@ -79,9 +79,14 @@ h2 {
   line-height: 1.8rem;
 }
 
-.text > p, .text > h3 {
+.text > p, .text > h3, .text > ul {
   max-width: 400px;
   width: 100%;
+  list-style-type: none;
+}
+
+.text > ul {
+  padding-left: 0;
 }
 
 #main {
